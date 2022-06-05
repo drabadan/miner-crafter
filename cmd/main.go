@@ -2,9 +2,9 @@ package main
 
 import (
 	"github.com/drabadan/gostealthclient"
-	"github.com/drabadan/internal/minercrafter"
+	multicharconnector "github.com/drabadan/multicharconnector/internal/script"
 )
 
 func main() {
-	gostealthclient.Bootstrap(minercrafter.Script)
+	gostealthclient.Bootstrap(multicharconnector.Script)
 }
